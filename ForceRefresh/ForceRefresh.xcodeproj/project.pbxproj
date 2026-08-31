@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		646B21DA1A8D1FE81FA38712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C43AB18D289E81C391B3AF0 /* AppDelegate.swift */; };
+		EDA453E1E351D2DA2AF0D7C9 /* DisplayWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2445E0D2605F3C742A1A8C06 /* DisplayWatcher.swift */; };
+		F96796866A25A67A48FF6E2D /* EDIDSourceWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED8048B5B6E718114425EE /* EDIDSourceWindowController.swift */; };
+		8811972C1D601B3158E78398 /* EDIDInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = BB29DD291C97AB3432F871DD /* EDIDInjector.m */; };
+		26DD6C5347D2527C23905621 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BC2119D31EA204F6C362A5 /* Cocoa.framework */; };
+		CCC76C52B018B14F08B7F16D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3F8F7B122923A39595CAE6 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		557E52E4C11AE590EC3A8272 /* ForceRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C43AB18D289E81C391B3AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2445E0D2605F3C742A1A8C06 /* DisplayWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayWatcher.swift; sourceTree = "<group>"; };
+		C0ED8048B5B6E718114425EE /* EDIDSourceWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDIDSourceWindowController.swift; sourceTree = "<group>"; };
+		16773585138566A0779D8340 /* EDIDInjector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDIDInjector.h; sourceTree = "<group>"; };
+		BB29DD291C97AB3432F871DD /* EDIDInjector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDIDInjector.m; sourceTree = "<group>"; };
+		E0D5B2901300EB5E76E359A1 /* ForceRefresh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForceRefresh-Bridging-Header.h"; sourceTree = "<group>"; };
+		1FF134CBB6A908A3DEC306E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93BC2119D31EA204F6C362A5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3A3F8F7B122923A39595CAE6 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC387D19CD1A3451620F0124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DD6C5347D2527C23905621 /* Cocoa.framework in Frameworks */,
+				CCC76C52B018B14F08B7F16D /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DB42486F8D2FE87D162D8D7 = {
+			isa = PBXGroup;
+			children = (
+				8F64B8275B51F62F28B74528 /* ForceRefresh */,
+				2CD2E792D356D91EB831F263 /* Frameworks */,
+				8576CE35B696A30AFA54694A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F64B8275B51F62F28B74528 /* ForceRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				1C43AB18D289E81C391B3AF0,
+				2445E0D2605F3C742A1A8C06,
+				C0ED8048B5B6E718114425EE,
+				16773585138566A0779D8340,
+				BB29DD291C97AB3432F871DD,
+				E0D5B2901300EB5E76E359A1,
+				1FF134CBB6A908A3DEC306E5,
+			);
+			path = ForceRefresh;
+			sourceTree = "<group>";
+		};
+		8576CE35B696A30AFA54694A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				557E52E4C11AE590EC3A8272 /* ForceRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD2E792D356D91EB831F263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93BC2119D31EA204F6C362A5,
+				3A3F8F7B122923A39595CAE6,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E77EB3C275015C048D79F36 /* ForceRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC3CEECEBE0115499D4CE28 /* Build configuration list for PBXNativeTarget "ForceRefresh" */;
+			buildPhases = (
+				D1F449AFCBC006451F91B826 /* Sources */,
+				EC387D19CD1A3451620F0124 /* Frameworks */,
+				FAD73944988BEB8689E9D974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForceRefresh;
+			productName = ForceRefresh;
+			productReference = 557E52E4C11AE590EC3A8272 /* ForceRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9E75DDD924273673548C04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0E77EB3C275015C048D79F36 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 635965B25158599C055AE1F4 /* Build configuration list for PBXProject "ForceRefresh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB42486F8D2FE87D162D8D7;
+			productRefGroup = 8576CE35B696A30AFA54694A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E77EB3C275015C048D79F36 /* ForceRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD73944988BEB8689E9D974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1F449AFCBC006451F91B826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646B21DA1A8D1FE81FA38712 /* AppDelegate.swift in Sources */,
+				EDA453E1E351D2DA2AF0D7C9 /* DisplayWatcher.swift in Sources */,
+				F96796866A25A67A48FF6E2D /* EDIDSourceWindowController.swift in Sources */,
+				8811972C1D601B3158E78398 /* EDIDInjector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7DA9BB40FF193DA1F5905CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26EDF944BDF94D7ED72866E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EF4B66009E51DCAB26180339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ForceRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.local.ForceRefresh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ForceRefresh/ForceRefresh-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD64E696CB4E54BE0BCA45FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ForceRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.local.ForceRefresh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ForceRefresh/ForceRefresh-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635965B25158599C055AE1F4 /* Build configuration list for PBXProject "ForceRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA9BB40FF193DA1F5905CAA /* Debug */,
+				26EDF944BDF94D7ED72866E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC3CEECEBE0115499D4CE28 /* Build configuration list for PBXNativeTarget "ForceRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4B66009E51DCAB26180339 /* Debug */,
+				CD64E696CB4E54BE0BCA45FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9E75DDD924273673548C04 /* Project object */;
+}
